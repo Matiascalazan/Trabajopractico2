@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Formulario de contacto</h1>
+    <nav class="secciones">
+     <ul>
+      <li><a href="Inicio.html">Inicio</a></li>
+     </ul>
+    </nav>
+  </header>
+  <section id="datos">
+    <h2>Por favor, introducí tus datos para comunicarnos con vos!</h2>
+  </section>
+  <main>
+    <form class="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit" onclick="alert('Gracias, ¡Pronto nos ponemos en contacto con vos!')">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>

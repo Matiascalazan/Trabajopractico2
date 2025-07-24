@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  background-color: #4d6070;
+  color:#f4f4f4;
+  padding: 15px;
+  text-align: center;
+}
+
+#descripcion {
+    margin: 0px;
+    padding: 10px 30px 0px 30px;
+}
+
+.secciones {
+  background-color: #4d6070;
+  padding: 10px;
+}
+
+.secciones ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4f4f4;
+}
+.secciones li {
+  margin: 0 15px;
+}
+
+.secciones a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*Estilo para la pag de hondaxr */
+
+.detalles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.caracteristicas{
+    text-align: center;
+}
+
+/*Estilo para formulario de contacto*/
+
+.formulario {
+  max-width: 600px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  padding: 10px;
+  background-color: #4d6070;
+  color: #fafafa;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#datos{
+    text-align: center;
+}
+
+/*Estilo para galeria*/
+.texto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.galeria img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
